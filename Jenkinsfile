@@ -6,6 +6,7 @@
 
 @Library("icy@master")
 
+// FIXME: Jenkins can't work without the following line
 def icyUtils = new org.icy.Utils()
 
 try {
@@ -14,6 +15,8 @@ try {
 
     buildInfo()
 
+    // FIXME: We need to invoke `bundle install` which can't be possible
+    // FIXME: with the current Jenkins environment settings.
     stage("proxy-tests") {
       sh """#!/usr/bin/env bash
         cd proxy || exit
