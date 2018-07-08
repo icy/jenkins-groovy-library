@@ -12,6 +12,8 @@ try {
   node {
     checkOut("clean")
 
+    buildInfo()
+
     stage("proxy-tests") {
       sh """#!/usr/bin/env bash
         cd proxy || exit
