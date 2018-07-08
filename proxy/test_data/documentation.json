@@ -1,0 +1,44 @@
+{
+  "before": "402f22a9a901567503df2d74642afe28ba7874ba",
+  "created": false,
+  "forced": false,
+  "ref": "refs/heads/will_not_skip_this",
+  "head_commit": {
+    "modified": [
+      "Jenkinsfile"
+    ],
+    "tree_id": "a3b6fde2b77621fb14b461cc480949c509480050",
+    "author": {
+      "name": "Ky-Anh Huynh",
+      "username": "kyanh-huynh",
+      "email": "test@example.net"
+    },
+    "distinct": true,
+    "committer": {
+      "email": "test@example.net",
+      "username": "kyanh-huynh",
+      "name": "Ky-Anh Huynh"
+    },
+    "id": "b4aaced32ea04cd51410c66dcab6f7f86c67cb16",
+    "url": "https://github.com/kyanh-huynh/example-repo/commit/b4aaced32ea04cd51410c66dcab6f7f86c67cb16",
+    "timestamp": "2017-05-26T17:00:11+07:00",
+    "added": [],
+    "removed": [],
+    "message": "doc: Fix typo error in documentation"
+  },
+  "deleted": false,
+  "base_ref": null,
+  "repository": {
+    "id": 35129377,
+    "name": "scheduler",
+    "full_name": "baxterthehacker/public-repo",
+    "owner": {
+      "name": "baxterthehacker",
+      "email": "baxterthehacker@users.noreply.github.com"
+    },
+    "private": false,
+    "html_url": "https://github.com/baxterthehacker/public-repo",
+    "description": "",
+    "fork": false
+  }
+}

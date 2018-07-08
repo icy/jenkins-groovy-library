@@ -1,0 +1,31 @@
+{
+  "before": "79292c01aa751bf08e8999e658088ac9971ff366",
+  "created": false,
+  "forced": false,
+  "ref": "refs/heads/v1.2.100",
+  "head_commit": {
+    "modified": [
+      "Jenkinsfile"
+    ],
+    "tree_id": "882d8370ae08ed81d5513cf8f71f2745fe5f3020",
+    "author": {
+      "name": "Ky-Anh Huynh",
+      "username": "kyanh-huynh",
+      "email": "test@example.net"
+    },
+    "distinct": true,
+    "committer": {
+      "email": "test@example.net",
+      "username": "kyanh-huynh",
+      "name": "Ky-Anh Huynh"
+    },
+    "id": "4bd5faf22b240a4176eb87f107720dcdfe0d16a1",
+    "url": "https://github.com/kyanh-huynh/example-repo/commit/4bd5faf22b240a4176eb87f107720dcdfe0d16a1",
+    "timestamp": "2017-05-26T17:11:10+07:00",
+    "added": [],
+    "removed": [],
+    "message": "test: a good message to continue"
+  },
+  "deleted": false,
+  "base_ref": null
+}

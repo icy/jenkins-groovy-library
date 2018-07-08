@@ -1,0 +1,31 @@
+{
+  "before": "1037773174f97e6d17346ad698f56fa2082533fc",
+  "created": false,
+  "forced": false,
+  "ref": "refs/heads/skip_ci_testing",
+  "head_commit": {
+    "modified": [
+      "Jenkinsfile"
+    ],
+    "tree_id": "730996f6fa4a547926ae06602e9799098208de1f",
+    "author": {
+      "name": "Ky-Anh Huynh",
+      "username": "kyanh-huynh",
+      "email": "test@example.net"
+    },
+    "distinct": true,
+    "committer": {
+      "email": "test@example.net",
+      "username": "kyanh-huynh",
+      "name": "Ky-Anh Huynh"
+    },
+    "id": "7cc77b8a751e4bcec88db240d8b53bce02d1d9d3",
+    "url": "https://github.com/kyanh-huynh/example-repo/commit/be73b718e612a6a3017a1c0ead6084adc05e5170",
+    "timestamp": "2017-05-26T17:00:05+07:00",
+    "added": [],
+    "removed": [],
+    "message": "test: skip ci should return in main loop [skip ci]"
+  },
+  "deleted": false,
+  "base_ref": null
+}
