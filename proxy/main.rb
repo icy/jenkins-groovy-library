@@ -124,9 +124,7 @@ post '/github-webhook/?' do
   hook_type = request.env["HTTP_X_GITHUB_EVENT"]
   save_payload(:github, request, params)
   ret = process_payload(params["payload"], hook_type)
-  if ret[:hotfix]
-    schedule_remote_job(request, ret[:repo_name])
-  elsif ret[:by_pass]
+  if ret[:by_pass]
     bypass_payload(request, params["payload"], hook_type)
   else
     logger.warn "Payload discarded. Reason: #{ret[:reason]}."
