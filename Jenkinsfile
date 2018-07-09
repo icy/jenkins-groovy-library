@@ -12,9 +12,7 @@ def icyUtils = new org.icy.Utils()
 try {
   node {
     checkOut("clean")
-
     buildInfo()
-
     // FIXME: We need to invoke `bundle install` which can't be possible
     // FIXME: with the current Jenkins environment settings.
     stage("proxy-tests") {
