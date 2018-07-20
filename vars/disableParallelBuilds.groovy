@@ -15,12 +15,18 @@ def call(String disable = "true") {
 
       set +x
       set -u
-
+      ## \${env.WORKSPACE} may have numeric suffixes, e.g., "@2"
+      ## however the actual library doesn't use that.
+      ## FIXME: We don't expect users to use "@<digit>" in there job names.
       ## FIXME: Support slave Jenkins nodes
-      if [[ ! -d "${env.WORKSPACE}@libs" ]]; then
+      _work_space="${env.WORKSPACE}"
+      _work_space="\${_work_space%@*}"
+      if [[ ! -d "\${_work_space}@libs" ]]; then
         echo >&2 "#####################################################"
         echo >&2 ":: Parallel builds are disabled."
         echo >&2 "#####################################################"
+        echo >&2 ":: Build environment"
+        env
         exit 1
       fi
     """
